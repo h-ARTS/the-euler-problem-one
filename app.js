@@ -14,4 +14,6 @@ function multiples() {
   
 }
 
-document.getElementById('app').innerHTML = multiples();
+var result = multiples();
+
+document.getElementById('main').innerHTML = result;
